@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fivetipstolear</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="text_to_change">The advice of a student:</string>
+    <string name="change_text">Click for tips </string>
+</resources>
