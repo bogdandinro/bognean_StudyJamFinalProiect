@@ -1,12 +1,13 @@
 package com.studyjams.bognean.fivetipstolear;
 
-        import android.os.Bundle;
-        import android.support.v7.app.AppCompatActivity;
-        import android.view.Gravity;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.TextView;
-        import android.widget.Toast;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     int oldVaue;
@@ -19,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         changeTextViewValueRandomlyOnButtonClick();
 
 
+    }
+
+    public void abc(View view) {
+        ImageView img = (ImageView) findViewById(R.id.imagine);
+        img.setVisibility(View.INVISIBLE);
     }
 
     private void changeTextViewValueRandomlyOnButtonClick() {
@@ -37,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 "This is another study technique that is ideal for studying with friends and/or classmates. Brainstorming is a great way to expand every possible idea out of any topic. Just get a bunch of friends together and shoot the breeze, there are no wrong answers when brainstorming – just talk and capture the ideas, you can review afterward.\n" +
                 "\n" +
                 "Some ideas that sounded great before will be ruled out straight away afterwards while others that sounded crazy before will be seen to have great promise. Using  Mind Maps is an ideal way of capturing all this info as it mirrors the explosive nature of your thought processes.\n"
-        ,"Study Tip 5: Mnemonic Rules\n" +
+                , "Study Tip 5: Mnemonic Rules\n" +
                 "\n" +
                 "Mnemonics are especially useful when memorising lists and sets. Mnemonics rules basically work by associating certain concepts with other concepts that are more familiar to us. There are many different ways to make mnemonics and these can be individual to the person.\n" +
                 "\n" +
